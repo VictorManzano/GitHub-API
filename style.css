@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url(imagens/icons8-github-64.png);
+    background-color: #0d1117;
+    background-repeat: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.containerPai {
+    background-color: #000000;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.containerUM {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imageUser {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #181818;
+}
+
+.containerDOIS {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.infosUserPai {
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #181818;
+    border-radius: 10px;
+}
+
+.infosUser {
+    width: 180px;
+    height: 20%;
+    font-size: 15px;
+    display: flex;
+    margin-left: 30px;
+}
+
+#primeiroInfos {
+    border-top: none;
+}
+
+.infosUser p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2px;
+}
+
+.infosUser span {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+}
+
+.alinharContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 8px #00000099;
+}
