@@ -105,3 +105,31 @@ h1 {
     letter-spacing: 10px;
     text-shadow: 4px 4px 8px #00000099;
 }
+
+
+@media screen and (max-width: 768px) {
+    .containerPai {
+        flex-direction: column; 
+        height: 500px;
+        width: 300px;
+    }
+
+    .containerUM {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerDOIS {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+ }
